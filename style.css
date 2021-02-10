@@ -163,7 +163,7 @@ body {
 h1, h2, .name{
 	text-align: center;
 	padding-top:50px;
-	
+	font-family:monospace;
 	color: white;
 }
 
@@ -190,18 +190,21 @@ h1, h2, .name{
 	text-align: center;
 	background: pink;
 	color: white;
+	font-family:monospace;
 }
 
 .person2{
 	text-align: center;
 	background: pink;
 	color: white;
+	font-family:monospace;
 }
 
 .person3{
 	text-align: center;
 	background: pink;
 	color: white;
+	font-family:monospace;
 }
 .layer1{
 	background-image: url("images/ECC6C895-D568-4372-859C-AF399DA2A80B.JPG");
@@ -211,4 +214,19 @@ h1, h2, .name{
 	width: 100%;
 	right: 150px;
 	z-index: 10;
+}
+.story p{
+	position: absolute;
+	color: white;
+	background-color: pink;
+	z-index: 100;
+	margin-left: 100px;
+	margin-top: 300px;
+	padding-top: 20px;
+	padding-bottom:180px;
+	width: 800px;
+	height: 200px;
+	right: 0px;
+	font-size: 25px;
+	font-family: monospace;
 }
