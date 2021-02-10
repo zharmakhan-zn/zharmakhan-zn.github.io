@@ -1,0 +1,214 @@
+#background-image{
+	background-image: url("images/background.jpg");
+	height:100%;
+	position: absolute;
+	background-size: cover;
+	z-index: -10;
+/*	places backwards, differences in z index create layered looks*/
+	width:100%;
+	left:-200px;
+	 
+}
+
+#background-image1{
+	background-image: url("images/IMG_4781.JPG");
+	height:100%;
+	position: absolute;
+	background-size: cover;
+	z-index: -10;
+	width:100%;
+	left:-100px;
+	 
+}
+
+.backcolor{
+	background-color: #5A350A;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	z-index: -20;
+}
+
+.backcolor1{
+	background-color:black;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	z-index: -30;
+} 
+
+#slogan h1 {
+	text-align: left;
+	position:absolute;
+	font-size: 100px;
+	top:100px;
+	right: 0px;
+	color:pink;
+	
+}
+#button button {
+	position: absolute;
+	height: 100%;
+	z-index: 334430;
+	cursor: pointer;
+  	background-color: #5A350A;
+	color: white;
+	padding:15px;
+}
+#button button:hover {
+  background-color: pink;
+}
+/*
+#navigation {
+	padding: 300px 
+	background: red;
+	justify-content: space-between;
+	border:none;
+	z-index: 50;
+	display: block;
+}
+*/
+
+.tele{
+	background-image: url("images/tv.png");
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	width:100%;
+	z-index: -10;
+	
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#00000090;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sidebar a {
+  padding: 60px 8px 60px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: pink;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  height: 102%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #5A350A;
+  color: white;
+  padding:15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: pink;
+} 
+/*another pop color when cursor crosses the button*/
+
+#main {
+  transition: margin-left .5s;
+/*  speed*/
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 15px;}
+}
+
+.video-wrap{
+	position: relative;
+	padding-bottom: 30.25%;
+	top: 140px;
+	height: 30px;
+	width:500px;
+	z-index: 10;
+	
+}
+.video-wrap iframe{
+	position: absolute;
+	top: 0;
+	left: 380;
+	
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+h1, h2, .name{
+	text-align: center;
+	padding-top:50px;
+	
+	color: white;
+}
+
+.row{
+	
+	display: inline-grid;
+	grid-template-columns: 33% 33% 33%;
+	width: 80%;
+	margin-left: 10%;
+	height: 60%;
+}
+
+.people{
+	width: 100%;
+}
+
+.item{
+	/* Set display to be inline and block */
+	display: block;
+	padding: 20px;
+}
+
+.person1{
+	text-align: center;
+	background: pink;
+	color: white;
+}
+
+.person2{
+	text-align: center;
+	background: pink;
+	color: white;
+}
+
+.person3{
+	text-align: center;
+	background: pink;
+	color: white;
+}
+.layer1{
+	background-image: url("images/ECC6C895-D568-4372-859C-AF399DA2A80B.JPG");
+	height: 100%;
+	background-size:400px;
+	position: absolute;
+	width: 100%;
+	right: 150px;
+	z-index: 10;
+}
