@@ -1,0 +1,39 @@
+body{
+	font-family: Courier New;
+	font-size: 20px;
+	background-color: dimgrey;
+}
+
+#start{
+	font-size: 80px;
+	color: #ffbe61;
+	display: flex;
+	align-items: center;
+	padding-top: 20%;
+	justify-content: center;
+}
+
+.explain_right {
+  color: #a3aeba;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-right: 50%;
+  text-align: right;
+}
+
+.explain_left {
+  color:#a3aeba;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  text-align: left;
+}
+
+.tip {
+  font-size: 40px;
+  color: #fefec8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
